@@ -1,0 +1,12 @@
+{
+    "extends": [
+        "tslint:recommended",
+        "tslint-config-prettier"
+    ],
+    "rules": {
+        "prefer-for-of": false,
+        "no-string-literal": true,
+        "no-unused-expression": false,
+        "only-arrow-functions": false
+    }
+}
