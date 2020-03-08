@@ -43,3 +43,5 @@ export const Provider = ({ store, children }: { store: any; children: any }) => 
 export const createStore = (reducers: any) => {
   return reducers;
 };
+
+export const useStook = () => React.useContext<IMyContext>(MyContext);
